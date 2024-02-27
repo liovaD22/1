@@ -1,0 +1,25 @@
+{
+    "name": "1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "builder": "*",
+        "makecode-minecraft-space": "github:microsoft/makecode-minecraft-space#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.7.28",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "blocksprj"
+}
